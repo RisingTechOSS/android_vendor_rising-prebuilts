@@ -1,0 +1,9 @@
+android_app_import {
+	name: "PixelLauncher",
+	apk: "NexusLauncherRelease.apk",
+	overrides: ["Launcher3", "Launcher3QuickStep", "StatixLauncher"],
+	presigned: true,
+	privileged: true,
+  	system_ext_specific: true,
+}
+
